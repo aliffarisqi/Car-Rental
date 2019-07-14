@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    position:relative;
+}
+#container {
+    width:100%;
+    background-image: url('../bb.jpg');
+    background-position: top center;
+    text-align: center;
+}
+.head {
+    background:rgb(255, 255, 255);
+    width:100%;
+    margin:auto;
+}
+.domain_header {
+    height:70px;
+    line-height:70px; background-color: #FFFFFF;
+    background-image: url('../bg2.png');
+    width:100%;
+}
+.name {
+    font-family:Verdana, Geneva, sans-serif;
+    font-size: 70px;
+    color: rgb(1, 22, 22);
+    float:left;
+    clear:left;
+}
+#header {
+    width:100%;
+    height:50px;
+    border-bottom: solid 1px #D1D0CE;
+    position:relative;
+    background:#000000;
+}
+.head #nav {
+    width:100%;
+    text-align:center;
+    overflow:hidden;
+    line-height:30px;
+    vertical-align:middle;
+    background:#27b3eb;
+}
+.head #nav ul {
+    margin-right:15px;
+}
+.head #nav li {
+    float:right;
+    display:inline-block;
+}
+.head #nav li a {
+    clear: right;
+    font-size:large;
+    color:#ffffff;
+    padding: 0px 13px 0px 13px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.head #nav li a:hover{
+    color:black;
+    background-color:#1c9ed1;
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+.head #content {
+    margin-top:120px;
+    width: 1000px;
+}
+#content a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.aa{
+  width: 200px;
+  height: 50px;
+     font-size: 13px;
+     background-color:rgba(105, 98, 98, 0.5);
+    font-family: Verdana, Tahoma, sans-serif; 
+    border-radius: 7px;
+    margin: auto;
+    line-height: 50px;
+    display: inline-block;
+    border: 1px solid rgba(105, 98, 98, 0.5);
+}
+.aa:hover{
+    font-size: 13px;
+    width: 200px;
+    height: 50px;
+    background-color:rgba(179, 178, 178, 0.5);
+    border: 1px solid rgba(0, 235, 252, 0.7);
+
+}
+#content{
+    margin: auto;
+    width: 900px;
+    text-align: center;
+    display: inline-block;
+   
+}
+.footer{
+    text-align: center;
+    background-color: #000000;
+    color: #D1D0CE;
+}
+.span{
+    width: 220px;
+    height: 300px;
+
+
+}
